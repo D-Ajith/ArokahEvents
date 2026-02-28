@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* GLOBAL FONT FAMILY */
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Smooth text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Base font scaling */
+html {
+  font-size: 16px;
+}
+
+/* Responsive scaling */
+@media (max-width: 1024px) {
+  html { font-size: 15px; }
+}
+
+@media (max-width: 768px) {
+  html { font-size: 14px; }
+}
+
+@media (max-width: 480px) {
+  html { font-size: 13px; }
+}
+/* HEADINGS */
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* TEXT ELEMENTS */
+
+p, span, li, a {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* BUTTON */
+
+button {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+/* LINKS */
+
+a {
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+@media (max-width: 768px) {
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.7rem; }
+  h3 { font-size: 1.4rem; }
+
+  p, span, li, a, button {
+    font-size: 0.95rem;
+  }
+}
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
